@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+    
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+    .container{
+      display: grid;
+      height: 748px;
+      width: 748px;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 22px;
+      background-color: rgb(22, 23, 23);
+      gap: 9px;
+
+    }
+    .one{
+      
+      background-color: red;
+      height: 414px;
+      width: 320px; 
+    }
+    .two{
+      background-color:#F0F1EC ;
+      width: 420px; 
+      height:414px; 
+    }
+    .three{
+      background-color: #F0F1EC;
+      grid-column-start: 1;
+      height: 290px; 
+      width: 320px; 
+      
+      
+    }
+    .four{
+      background-color: #F0F1EC;
+      grid-column-start: 2;
+      grid-row-start: 2;
+      grid-row: span 2;
+      width: 350px;
+      height: 290px;
+
+    }
+    .five{
+      grid-row-start: 2; 
+      grid-column-start: 4;
+      background-color: #004592;
+      width: 50px; 
+      height: 130px; 
+     
+    }
+    .six{
+      background-color: #F0F1EC;
+      grid-row-start: 3; 
+      grid-column-start: 4;
+      width: 50px; 
+      height: 186px;
+
+    }
+    .seven{
+      background-color: #F0F1EC;
+      grid-column-start: 1; 
+      grid-row-start: 4;
+
+    }
+    .eight{
+      background-color:#F9D01E ;
+      grid-row-start:4 ;
+    }
+    .nine{
+      grid-row-start:4 ;
+      grid-column-start:3;
+      background-color: #4a4949;
+
+    }
+
+
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="container">
+    <div class="one">
+
+    </div>
+    <div class="two">
+
+    </div>
+    <div class="three">
+
+    </div>
+    <div class="four">
+
+    </div>
+    <div class="five">
+
+    </div>
+    <div class="six">
+      
+    </div>
+    <div class="seven">
+
+    </div>
+    <div class="eight">
+
+    </div>
+    <div class="nine">
+
+    </div>
+  </div>
+</body>
+
+</html>
